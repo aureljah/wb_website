@@ -2,7 +2,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Noto Sans';
+    font-family: Arial;
 }
 
 .main-logo {
@@ -27,13 +27,14 @@ body {
     border: none;
     text-decoration: none;
     font-size: 1.5em;
+    height: 30px;
 }
 
 .menu-label::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: 85px;
+    bottom: -5px;
     width: 0%;
     height: 3px;
     background-color: white;
