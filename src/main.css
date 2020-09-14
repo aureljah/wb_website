@@ -96,6 +96,8 @@ a {
     display: inline-block;
     vertical-align: middle;
     margin-top: -40px;
+    font-stretch: ultra-condensed;
+    font-size: 1.5em;
 }
 
 .contact-logo {
