@@ -91,7 +91,7 @@ a {
 .contact-wrapper {
     display: inline-block;
     position: relative;
-    top: -20px;
+    top: -18px;
 }
 
 .contact {
@@ -115,6 +115,6 @@ a {
 
 .contact-strip {
     position: relative;
-    height: 397px;
+    height: 395px;
     width: auto;
 }
