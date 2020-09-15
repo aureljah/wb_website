@@ -84,14 +84,14 @@ a {
 }
 
 .contact-container {
-    margin-left: 30vw;
-    margin-top: 5vh;
+    margin-left: 35vw;
+    /*margin-top: 5vh;*/
 }
 
 .contact-wrapper {
     display: inline-block;
     position: relative;
-    top: -45px;
+    top: -20px;
 }
 
 .contact {
@@ -115,6 +115,6 @@ a {
 
 .contact-strip {
     position: relative;
-    height: 450px;
+    height: 397px;
     width: auto;
 }
