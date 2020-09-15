@@ -29,7 +29,7 @@ a {
     position: relative;
     top: 30px;
     border: none;
-    font-size: 1.5em;
+    font-size: 30px;
     height: 30px;
 }
 
@@ -55,7 +55,7 @@ a {
 }
 
 .img-logotype {
-    min-width: 300px;
+    min-width: 450px;
     max-width: 32%;
     height: auto;
     margin-bottom: 1%;
@@ -70,21 +70,21 @@ a {
 }
 
 .home-img {
-    margin-top: 5%;
+    margin-top: 5vh;
     max-width: 100%;
     height: auto;
 }
 
 .cv-img {
-    margin-top: 5%;
-    padding-left: 5%;
-    max-width: 90%;
+    margin-top: 5vh;
+    padding-left: 5vw;
+    max-width: 90vw;
     height: auto;
 }
 
 .contact-wrapper {
-    margin-left: 40%;
-    margin-top: 10%;
+    margin-left: 40vw;
+    margin-top: 15vh;
 }
 
 .contact {
@@ -97,7 +97,7 @@ a {
     vertical-align: middle;
     margin-top: -40px;
     font-stretch: ultra-condensed;
-    font-size: 1.5em;
+    font-size: 25px;
 }
 
 .contact-logo {
