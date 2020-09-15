@@ -55,7 +55,7 @@ a {
 }
 
 .img-logotype {
-    min-width: 450px;
+    min-width: 300px;
     max-width: 32%;
     height: auto;
     margin-bottom: 1%;
@@ -76,7 +76,7 @@ a {
 }
 
 .cv-img {
-    margin-top: 5vh;
+    margin-top: 10vh;
     padding-left: 5vw;
     max-width: 90vw;
     height: auto;
