@@ -8,7 +8,7 @@
     <script>
       function toggleCategory(id) {
         let category = document.getElementById(id);
-        category.style.display = category.style.display == "block" ? 'none' : 'block';
+        category.style.display = category.style.display == "inline-table" ? 'none' : 'inline-table';
       }
     </script>
   </head>
@@ -25,20 +25,23 @@
     <div class="category">
         <h2 class="category-title" onclick="toggleCategory('category1')">Création de logotype ></h2>
         <div class="category-inline" id="category1">
-            <img class="img-logotype" src="assets/Logo_Boys_Noize.png">
-            <img class="img-logotype" src="assets/Logo_Escape_Evolution.png">
-            <img class="img-logotype" src="assets/Logo_OCH.png">
-            <img class="img-logotype" src="assets/Logo_Wallace_Bertin.png">
-            <img class="img-logotype" src="assets/Logo_IFM.png">
-            <img class="img-logotype" src="assets/Logo_Vingt_sur_20.png">
+          <img class="img-two-inline" src="assets/Portfolio logos/Boys Noize A4.png">
+          <img class="img-two-inline" src="assets/Portfolio logos/Escape Evolution A4.png">
+          <img class="img-two-inline" src="assets/Portfolio logos/IFM A4.png">
+          <img class="img-two-inline" src="assets/Portfolio logos/Vingt sur 20 A4.png">
         </div>
     </div>
     <div class="category">
       <h2  class="category-title" onclick="toggleCategory('category2')">Mise en page d'éléments graphiques ></h2>
       <div class="category-inline" id="category2">
-          <img class="img-logotype" src="assets/Cyberpunk.png">
-          <img class="img-logotype" src="assets/Géométrie_Ultra-Fine.png">
-          <img class="img-logotype" src="assets/Street_Art.png">
+          <img class="img-two-inline" src="assets/Portfolio Mises en Page/Facebook Retro.jpg">
+          <img class="img-two-inline" src="assets/Portfolio Mises en Page/Instagram Retro.jpg">
+          <img class="img-two-inline" src="assets/Portfolio Mises en Page/Twitter Retro.jpg">
+          <img class="img-two-inline" src="assets/Portfolio Mises en Page/Reddit Retro.jpg">
+          <img class="img-photo" src="assets/Portfolio Mises en Page/GIF Fat Man 2.gif">
+          <img class="img-three-inline" src="assets/Portfolio Mises en Page/Cyberpunk.jpg">
+          <img class="img-three-inline" src="assets/Portfolio Mises en Page/Géométrie Ultra-Fine.jpg">
+          <img class="img-three-inline" src="assets/Portfolio Mises en Page/Street Art.jpg">
       </div>
     </div>
     <div class="category">
@@ -47,6 +50,7 @@
           <img class="img-photo" src="assets/Avant-Après_1.jpg">
           <img class="img-photo" src="assets/Avant-Après_2.jpg">
           <img class="img-photo" src="assets/Avant-Après_3.jpg">
+          <img class="img-photo" src="assets/Avant-Après_4.jpg">
       </div>
     </div>
   </body>
