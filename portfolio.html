@@ -5,6 +5,12 @@
     <title>Wallace Bertin - Portfolio</title>
     <link rel="icon" href="assets/Wallace_Bertin_Icône_2_RVB_Transparent.png" type="image/x-icon">
     <link rel="stylesheet" href="main.css">
+    <script>
+      function toggleCategory(id) {
+        let category = document.getElementById(id);
+        category.style.display = category.style.display == "block" ? 'none' : 'block';
+      }
+    </script>
   </head>
 
   <body>
@@ -17,8 +23,8 @@
       <a class="menu-label" href="contact.html">Contact</a>
     </div>
     <div class="category">
-        <h2>Création de logotype :</h2>
-        <div class="inline">
+        <h2 class="category-title" onclick="toggleCategory('category1')">Création de logotype ></h2>
+        <div class="category-inline" id="category1">
             <img class="img-logotype" src="assets/Logo_Boys_Noize.png">
             <img class="img-logotype" src="assets/Logo_Escape_Evolution.png">
             <img class="img-logotype" src="assets/Logo_OCH.png">
@@ -28,16 +34,16 @@
         </div>
     </div>
     <div class="category">
-      <h2>Mise en page d'éléments graphiques :</h2>
-      <div class="inline">
+      <h2  class="category-title" onclick="toggleCategory('category2')">Mise en page d'éléments graphiques ></h2>
+      <div class="category-inline" id="category2">
           <img class="img-logotype" src="assets/Cyberpunk.png">
           <img class="img-logotype" src="assets/Géométrie_Ultra-Fine.png">
           <img class="img-logotype" src="assets/Street_Art.png">
       </div>
     </div>
     <div class="category">
-      <h2>Montage et retouche photo :</h2>
-      <div class="inline">
+      <h2  class="category-title" onclick="toggleCategory('category3')">Montage et retouche photo ></h2>
+      <div class="category-inline" id="category3">
           <img class="img-photo" src="assets/Avant-Après_1.jpg">
           <img class="img-photo" src="assets/Avant-Après_2.jpg">
           <img class="img-photo" src="assets/Avant-Après_3.jpg">
