@@ -8,7 +8,11 @@
     <script>
       function toggleCategory(id) {
         let category = document.getElementById(id);
-        category.style.display = category.style.display == "inline-table" ? 'none' : 'inline-table';
+        //category.style.display = category.style.display == "inline-table" ? 'none' : 'inline-table';
+        category.style.width = category.style.width == "100%" ? '0.1%' : '100%';
+        category.style.opacity = category.style.opacity == "1" ? '0' : '1';
+        let category_chevron = document.getElementById(id + "-chevron");
+        category_chevron.style.transform = category_chevron.style.transform == "rotate(90deg)" ? 'none' : 'rotate(90deg)';
       }
     </script>
   </head>
@@ -23,8 +27,11 @@
       <a class="menu-label" href="contact.html">Contact</a>
     </div>
     <div class="category">
-        <h2 class="category-title" onclick="toggleCategory('category1')">Création de logotype ></h2>
-        <div class="category-inline" id="category1">
+        <h2 class="category-title" onclick="toggleCategory('category1')">Création de logotype 
+          <h3 class="category-chevron" id=category1-chevron>⧽</h3>
+        </h2>
+        <div></div>
+        <div class="category-inline" id="category1" style="display: inline-table; width: 0.1%; opacity: 0; transition: width 0.5s ease-out, opacity 0.4s linear; will-change: width, opacity;">
           <img class="img-two-inline" src="assets/Portfolio logos/Boys Noize A4.png">
           <img class="img-two-inline" src="assets/Portfolio logos/Escape Evolution A4.png">
           <img class="img-two-inline" src="assets/Portfolio logos/IFM A4.png">
@@ -32,8 +39,11 @@
         </div>
     </div>
     <div class="category">
-      <h2  class="category-title" onclick="toggleCategory('category2')">Mise en page d'éléments graphiques ></h2>
-      <div class="category-inline" id="category2">
+      <h2  class="category-title" onclick="toggleCategory('category2')">Mise en page d'éléments graphiques 
+        <h3 class="category-chevron" id=category2-chevron>⧽</h3>
+      </h2>
+      <div></div>
+      <div class="category-inline" id="category2" style="display: inline-table; width: 0.1%; opacity: 0; transition: width 0.5s ease-out, opacity 0.4s linear; will-change: width, opacity;">
           <img class="img-two-inline" src="assets/Portfolio Mises en Page/Facebook Retro.jpg">
           <img class="img-two-inline" src="assets/Portfolio Mises en Page/Instagram Retro.jpg">
           <img class="img-two-inline" src="assets/Portfolio Mises en Page/Twitter Retro.jpg">
@@ -45,8 +55,11 @@
       </div>
     </div>
     <div class="category">
-      <h2  class="category-title" onclick="toggleCategory('category3')">Montage et retouche photo ></h2>
-      <div class="category-inline" id="category3">
+      <h2  class="category-title" onclick="toggleCategory('category3')">Montage et retouche photo 
+        <h3 class="category-chevron" id=category3-chevron>⧽</h3>
+      </h2>
+      <div></div>
+      <div class="category-inline" id="category3" style="display: inline-table; width: 0.1%; opacity: 0; transition: width 0.5s linear, opacity 0.4s linear; will-change: width, opacity;">
           <img class="img-photo" src="assets/Avant-Après_1.jpg">
           <img class="img-photo" src="assets/Avant-Après_2.jpg">
           <img class="img-photo" src="assets/Avant-Après_3.jpg">
@@ -54,5 +67,4 @@
       </div>
     </div>
   </body>
-  <footer class="portfolio-footer"></footer>
 </html>
